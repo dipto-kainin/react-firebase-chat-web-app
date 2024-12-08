@@ -1,0 +1,14 @@
+{
+    "build": {
+        "env": {
+            "NEXT_TELEMETRY_DISABLED": "1"
+        },
+        "webpack": {
+            "resolve": {
+                "fallback": {
+                    "path": false
+                }
+            }
+        }
+    }
+}
